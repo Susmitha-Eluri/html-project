@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry form</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>  <center>Enquiry Form</center></h1>
+    <p id="fill">Please fill the form below </p>
+
+    <form action="thank.html" method="get">
+        <label for = "name"><b>Name:</b></label><br>
+        <input type ="text" placeholder="Enter Name" name="USERNAME" required><br>
+        <label for ="moblie no."><b>Mobile number:</b></label><br>
+        <input type ="number" placeholder="Enter mobile no." name="USERMONO." ><br>
+        <label for = "comments"><b>Comments:</b></label><br>
+        <textarea name="comments" id="" cols="10" rows="2"></textarea><br>
+        <label for = "email"><b>E-mail</b></label><br>
+        <input type = "email" placeholder="Enter EmailID" name="USEREMAIL"><br><br>
+         <P><b>DATE OF BIRTH: </b></P>
+        <input type="date" name="" id="">
+        <P><b>PASSWORD:</b></P>
+        <input type="password" name="" id="">
+        <p><b>Select your gender</b></p>
+        <input type="radio" name="Gender" value="This person is female">Female
+        <input type="radio" name="Gender" value="This person is male">Male<br>
+        <p><b>Select your favsport</b></p>
+        <input type="checkbox" name="favsport" id="">Hockey<br>
+        <input type="checkbox" name="favsport" id="">Cricket<br>
+        <input type="checkbox" name="favsport" id="">Badminton<br><br>
+        <input type="submit" placeholder="Submit">
+        <input type="reset" placeholder="Clear">
+    </form>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enquiry Submitted</title>
+    <style>
+        body{
+        background-color: pink;
+        }</style>
+</head>
+<body>
+    <h1> <center>Thank You for filling the form</center></h1>
+    <h2> <center>Our team will guide you in ten minutes </center></h2>
+</body>
+</html>
